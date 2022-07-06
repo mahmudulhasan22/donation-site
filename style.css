@@ -5,11 +5,10 @@ body{
     margin: 0;
 }
 .banner{
-         width : 100%;
-        height: 200px; 
+        /* width : 100%; */
+        height: 200px;
     }
  .banner img{
-    margin: auto;
     width: 100%;
     height: 635px;
 } 
@@ -27,27 +26,28 @@ h1{
 p{
     font-size: 20px;
     margin-bottom: 30px; 
+    font-family: 'Poppins', sans-serif;
 }
 .donate-btn{
     color: white;
     background-color: tomato;
-    padding: 10px 35px;
-    border-radius: 15px;
+    padding: 20px 35px;
+    border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
 }
 
-
+/*donate now*/
 .donate-tk{
     text-align: center;
     padding:  600px 50px 100px;
 }
 .donate-ammnt{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
-    font-size: x-large;
+    font-size: 23px;
     margin-bottom: 30px;
 }
 
@@ -55,6 +55,10 @@ p{
     background-color: #FFF6EA;
     padding: 40px 40px;
     color: gray;
+}
+hr{
+    width: 70%;
+    margin-left:190px;
 }
 .specific-clr{     
     color: tomato;
@@ -65,16 +69,21 @@ p{
 .send-now{
     display: inline-block;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 .other-text{
     color: gray;
     text-align: center; 
 }   
+
+
+/*donation plan*/
  
 .donation-plan{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 40px;
     
 }
 .donation-para{
@@ -100,6 +109,61 @@ p{
     background-color: #FEE3EC;
 }
 
+
 /* get update section */
+.email{
+    width: 60%;
+    margin-left: 200px;
+    margin-bottom: 180px;
+    background-color: wheat;
+    padding: 100px 80px;
+}
 
+.email-place{
+     margin-left: 28%;
+     padding: 20px 40px 18px 40px;
+     font-weight: bold ;
+}
 
+.subscribe-btn{
+    padding: 20px 40px 18px 40px ;
+    background-color: tomato;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*volunteer section*/
+
+.volunteer-sec{
+    margin-left: 50px;
+    margin-right: 50px;
+     display: flex;
+     margin-bottom: 100px;
+}
+.volunteer-sec img{
+    height: 100%;
+}
+.volunteer-text{
+    background-color: #FEE3EC  ;
+    text-align: justify;
+    padding: 40px;
+}
+.volunteer-text h2{
+    font-size: 30px;
+}
+.volunteer-text p{
+    font-size: 23px;
+}
+
+/*footer*/
+footer{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(29, 29, 139);
+    padding-top: 40px ;
+    padding-bottom: 20px;
+    color: white;
+}
