@@ -127,6 +127,7 @@ hr{
 
 .subscribe-btn{
     padding: 20px 40px 18px 40px ;
+    margin-left: -5px;
     background-color: tomato;
     border: none;
     font-family: 'Poppins', sans-serif;
